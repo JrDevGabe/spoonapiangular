@@ -1,0 +1,22 @@
+
+<div class="flex flex-wrap items-center h-screen">
+    <div class="flex flex-col items-center justify-center align-middle bg-licorice w-full h-screen md:w-1/2">
+        <h3 class="uppercase font-semibold leading-6 tracking-widest text-xl text-rice md:text">
+            Latest Recipe
+        </h3>
+     <h1  class=" text-left text-6xl px-9 mt-8 font-serif text-rice underline hover:text-maize hover:no-underline ">
+        <a [routerLink]="['/recipe-details']">
+            Bahn Mi Sandwhich 
+        </a>
+     </h1>
+     <p class="px-9 mt-8 text-rice text-left text-lg">
+        Bahn Mi Recipe – Vietnamese Sandwiches with Golden Pork Belly – Bahn Mi is the Vietnamese word for bread. In Vietnamese cuisine, it also refers to a type of short baguette with thin, crisp crust and soft... 
+     </p>
+    </div>
+    <div class="bf-licorise w-full h-screen md:w-1/2">
+        <img src="https://lh3.googleusercontent.com/geFE7SEFYfcZYwGX8tTZXvvlHggS0Y5Tyw00vH-LZKAxhthyM_QVhTRE_rw-CjQABQntyuM2VUhMq-w9Fha0jnglHj6RLsHgBQ=s640-c-rw-v1-e365" alt="Bahn Mi Sandwhich" class="h-screen w-full shadow">
+    </div>
+</div>
+<app-findrecipe></app-findrecipe>
+<app-latestrecipes></app-latestrecipes>
+<app-footer></app-footer>
